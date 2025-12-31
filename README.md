@@ -1,18 +1,32 @@
-# adidas-data-analysis
-Sales data analysis of Adidas using PostgreSQL and SQL
-# Adidas Data Analysis
+# Adidas Sales Data Analysis
 
-This project analyzes Adidas sales data using SQL in PostgreSQL.
+This project presents an end-to-end sales analysis of Adidas data using PostgreSQL.
+The objective is to extract business insights related to revenue, profitability,
+regional performance, product mix, and sales channels.
 
-## Tools
+## Tools & Technologies
 - PostgreSQL
 - SQL
-- GitHub
+- pgAdmin
+- Git & GitHub
 
 ## Project Structure
-- sql/ – SQL scripts for analysis
-- data/ – Dataset
-- results/ – Analysis outputs
+- data/ – Raw dataset
+- sql/
+  - 01_data_validation.sql
+  - 02_core_kpis.sql
+  - 03_region_analysis.sql
+  - 04_product_analysis.sql
+  - 05_sales_method_analysis.sql
+- results/
+  - insights.md
+  - summary.md
+
+## Key Outcomes
+- Identified revenue vs margin trade-offs across regions
+- Highlighted footwear as the primary growth driver
+- Demonstrated superior profitability of online sales channels
+- Delivered actionable, business-focused recommendations
 
 ## Status
-In progress 🚧
+Completed ✅
